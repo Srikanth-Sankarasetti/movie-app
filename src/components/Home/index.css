@@ -1,0 +1,125 @@
+.homeMainContainer {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.home-movie-list-container {
+  background-color: #121210;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px -2px #121210;
+}
+
+.slick-container {
+  width: 95%;
+  margin-top: 10px;
+  margin: auto;
+}
+
+.logo-image {
+  margin: 0px 10px;
+  height: 300px;
+  width: 95%;
+  border-radius: 8px;
+}
+
+.super-man-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 50%;
+  margin-left: 10%;
+  padding-bottom: 150px;
+}
+
+.super-man-head {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 84px;
+  color: #cf259f;
+  text-shadow: 3px 3px 4px #cad622;
+}
+
+.super-man-text {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+  width: 443px;
+}
+
+.playButton {
+  width: 100px;
+  height: 35px;
+  background: #ffffff;
+  border-radius: 4px;
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+  background-color: green;
+  color: #ffffff;
+}
+
+.originalHead {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 31px;
+  color: #ffffff;
+}
+
+.loader {
+  background-color: #121210;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader-container {
+  width: 80%;
+  height: 55vh;
+  background-color: #0d0d0d;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.normal-loader-container {
+  width: 100%;
+  height: 35vh;
+  background-color: #0d0d0d;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.error-message {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.try-again-button {
+  width: 94px;
+  height: 32px;
+  background: #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+}

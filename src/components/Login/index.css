@@ -1,0 +1,121 @@
+.loginMainContainer {
+  background: linear-gradient(
+      116.64deg,
+      rgba(0, 0, 0, 0.8) 0.46%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url('https://res.cloudinary.com/ducrzzdqj/image/upload/v1675167591/netfilx_1_wkpdb6.png');
+  position: absolute;
+  background-size: cover;
+  width: 100vw;
+  min-height: 1024px;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.movieImage {
+  color: #e50014;
+  position: absolute;
+  width: 180px;
+  height: 52px;
+  left: 6%;
+  top: 48px;
+}
+
+.formLoginContainer {
+  background: #0c0b10;
+  opacity: 0.8;
+  border-radius: 8px;
+  position: absolute;
+  width: 35%;
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+}
+
+.loginHead {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  color: #ffffff;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.usernameContainer {
+  width: 85%;
+  align-self: center;
+  margin-bottom: 40px;
+}
+.usernameContainer1 {
+  width: 85%;
+  align-self: center;
+}
+
+.input {
+  width: 100%;
+  align-self: center;
+  height: 40px;
+  background-color: #333333;
+  border-radius: 2px;
+  border-style: none;
+  outline-color: yellowgreen;
+  color: #e2e8f0;
+  padding-left: 16px;
+}
+
+.inputLabel {
+  align-self: flex-start;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  line-height: 24px;
+}
+
+.Login-btn {
+  width: 85%;
+  align-self: center;
+  height: 40px;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #e50914;
+  border-radius: 8px;
+  color: #f8fafc;
+  cursor: pointer;
+  margin-top: 20px;
+  border-style: none;
+}
+
+.checkBox {
+  padding-left: 7%;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.passWordLabel {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.error {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #dc2626;
+  padding-left: 8%;
+}
